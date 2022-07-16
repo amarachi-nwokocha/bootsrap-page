@@ -1,0 +1,102 @@
+.sub-head {
+  font-family: "Fraunces", sans-serif;
+  color: #5a636c;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 90px;
+  padding-bottom: 100px;
+}
+
+.card-body > img {
+  border-radius: 50%;
+  margin-left: 125px;
+  margin-bottom: 70px;
+}
+.und-text{
+  text-align: center;
+  padding-left: 20px;
+  font-size: 17px;
+  color: #5a636c;
+  font-family: "Barlow" sans-serif;
+  font-weight: 500;
+}
+.text {
+  padding-left: 30px;
+  font-family: "Barlow" sans-serif;
+  color: #5a636c;
+  width: 350px;
+  font-weight: 700;
+  font-size: 20px;
+}
+.card-title {
+  font-family: "Fraunces", sans-serif;
+  margin-left: 125px;
+  margin-top: 70px;
+  font-weight: 700;
+  font-size: 27px;
+}
+.sub-title {
+  font-family: "Barlow" sans-serif;
+  color: #5a636c;
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 110px;
+  text-align: center;
+}
+.col-sm-3 {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.footer {
+  background-color: hsl(169, 43%, 78%);
+}
+.sub-head2 {
+  color: hsl(167, 40%, 24%);
+  font-family: "Barlow" sans-serif;
+  font-weight: 900;
+  font-size: 40px;
+  text-transform: lowercase;
+  text-align: center;
+  padding-top: 90px;
+  padding-bottom: 50px;
+}
+
+li > .nav-link {
+  color: hsl(167, 40%, 24%);
+  font-weight: 500;
+  font-size: 20px;
+}
+li > .nav-link:hover {
+  color: white;
+  cursor: pointer;
+}
+li > img {
+  padding-bottom: 60px;
+  padding-top: 30px;
+}
+li > img:hover {
+  color: white;
+  cursor: pointer;
+}
+i {
+  color: hsl(167, 40%, 24%);
+  font-weight: 500;
+  font-size: 40px;
+}
+/**meia Query*/
+@media screen and (max-width: 768px) {
+  .text {
+    width: 100%;
+    padding-left: 35px;
+  }
+  .card-body > img {
+    margin-left: 95px;
+  }
+  .card-title,
+  .sub-title {
+    margin-left: 75px;
+  }
+}
+.sub-sec2{
+  margin-left: -20px;
+}

@@ -1,0 +1,192 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Fraunces" sans-serif;
+}
+.header {
+  height: 770px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("./images/desktop/image-header.jpg");
+  color: white;
+}
+
+.navbar-light .navbar-brand {
+  font-family: "Barlow", sans-serif;
+  color: white;
+  font-size: 40px;
+  font-weight: 900;
+  margin-left: 70px;
+}
+
+.head-text {
+  display: block;
+  font-family: "Fraunces", sans-serif;
+  color: white;
+  font-size: 58px;
+  font-weight: 00;
+  text-align: center;
+  padding-top: 80px;
+}
+.arrow {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15vh;
+}
+.navbar-light .navbar-nav .nav-link {
+  /* color: rgba(0,0,0,.55); */
+  color: white;
+  font-size: 25px;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    background-color: #5a636c;
+    border-radius: 20px;
+    padding :10px;
+}
+.navbar-light .navbar-nav{
+  margin-right: 70px;
+}
+button.btn{
+  color: #FFF;
+  font-size: 25px;
+}
+button.btn:hover{
+  background-color: #FFF;
+  padding: 10px;
+  border-radius: 20px;
+}
+.white-text h1 {
+  font-weight: 900;
+}
+.big-text {
+  font-family: "Fraunces", sans-serif;
+  margin-top: 90px;
+  margin-bottom: 15px;
+  padding-left: 75px;
+  font-size: 50px;
+}
+.text {
+  margin-left: 50px;
+  padding-left: 130px;
+  font-family: "Barlow" sans-serif;
+  color: #5a636c;
+  /* font-weight: 400; */
+  font-size: 10px;
+  border: 2px solid red;
+}
+.small-text{
+  margin: 40px 120px 50px 50px;
+  text-align: left;
+  padding-left: 60px;
+  font-size: 17px;
+  color: #5a636c;
+  font-family: "Barlow" sans-serif;
+  font-weight: 500;
+}
+.but {
+   padding-left: 105px;
+  text-transform: uppercase;
+  font-weight: 700;
+  background-color: white;
+  color: #5a636c;
+  border: none;
+} 
+.lamp {
+  position: relative;
+  text-align: center;
+}
+.btns {
+  color: white;
+  background-color: none;
+  width: 70px;
+  border-radius: 30px;
+}
+
+.navbar-nav > .nav-link {
+  margin-left: 30px;
+  color: white;
+}
+.padding-0 {
+  padding-right: 0;
+  padding-left: 0;
+}
+.col-sm-6 {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.egg{
+  position:relative;
+  height:500px;
+  width:100%;
+  background-position: center center;
+  background-size:cover;
+  left: 0;
+  top:0;
+  z-index: -999;
+}
+.some-text{
+  height:500px;
+}
+
+.back-image1 {
+  height: 530px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("./images/desktop/image-graphic-design.jpg");
+}
+.back-image2 {
+  height: 530px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("./images/desktop/image-photography.jpg");
+}
+
+.over-text {
+  text-align: center;
+  padding-top: 350px;
+  font-family: "Barlow" sans-serif;
+  font-size: 20px;
+  color: #5a636c;
+}
+.over-text > h2 {
+  font-family: "Fraunces", sans-serif;
+  color: #5a636c;
+}
+.over-parag {
+  font-family: "Barlow" sans-serif;
+  font-size: 20px;
+  width: 530px;
+  padding-left: 90px;
+
+}
+.card-img-overlay{
+  margin-top:240px;
+}
+.card-title{
+    padding-left: 50px;
+}
+/**media query**/
+
+@media screen and (min-width: 768px) {
+  .back-image1,
+  .back-image2 {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .big-text,
+  .text,
+  .but {
+    padding-left: 35px;
+  }
+  .text {
+    width: 95%;
+  }
+  .over-parag {
+    font-size: 20px;
+    width: 350px;
+    padding-left: 50px;
+  }
+}
